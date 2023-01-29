@@ -1,0 +1,75 @@
+<html>
+    <head> </head>
+    <body>
+        <h1>Brugu office</h1>
+        <div style="background-image: url(https://www.shutterstock.com/image-photo/charminar-hyderabad-india-background-copy-260nw-1046605465.jpg); width: 300px; height: 220px;">Hello</div>
+        <h2>Software Solutions</h2>
+        <a href="https://twitter.com/BruguLimited?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><p>Brugu is fully featured blockchain development company. The overall development coming near to offer the right solutions to blockchain businesses.</p></a>
+        <img src="" alt="image" width="100px" height="100px">
+        <ol>
+            <li>Hi</li>
+            <li>Hello</li>
+            <li>Bye</li>
+        </ol>
+        <ul>
+            <li>Hi</li>
+            <li>Hello</li>
+            <li>Bye</li>
+        </ul>
+        <ul>
+            <li style="color: red;">Hi</li>
+            <li style="color: blue;">Hello</li>
+            <li style="color: green;">Bye</li>
+        </ul>
+        <a href="" download="https://robknightphotography.com/wp-content/uploads/2020/09/1080236-Edit-300x300.jpg"><img src="https://robknightphotography.com/wp-content/uploads/2020/09/1080236-Edit-300x300.jpg" alt=""></a>
+        <p><i>Although Brugu was founded in 2018, the journey began in 2016</i><b>. A chance meeting at an international blockchain conference between two friends (now our founders) and an impending need for a decentralised land registry brought the two together.</b><s> Brugu means "Bhrigu," one of the seven great sages of Hinduism who is revered as the father of happiness.</s></p>
+        <hr/>
+        <form action="">
+            <input type="radio" name="Gender" onclick="gend(event)" value="Male">:Male
+            <input type="radio" name="Gender" onclick="gend(event)" value="Female">:Female
+            <input type="radio" name="Gender" onclick="gend(event)" value="Others">:Others
+            <div>
+                <input type="checkbox" onclick="course(event)" value="React">:React
+                <input type="checkbox" onclick="course(event)" value="Angular">:Angular
+                <input type="checkbox" onclick="course(event)" value="Javascript">:Javascript
+            </div>
+            <label for="">Name:</label>
+            <input type="text" id="name"><br/>
+            <label for="">Number:</label>
+            <input type="number" id="num"><br/>
+            <label for="">Email:</label>
+            <input type="email" id="mail"><br/>
+            <label for="">Password:</label>
+            <input type="password" id="pass"><br/>
+            <label for="">Date:</label>
+            <input type="date" id="date"><br/>
+        </form>
+        <input type="submit" onclick="submit()">
+        <script>
+            var gen;
+            var cor=[];
+            var i=0;
+            const gend=(e)=>{
+                gen=e.target.value;
+            }
+            const course=(e)=>{
+                cor[i]=e.target.value;
+                i++;
+            }
+            const submit=()=>{
+                var name=document.getElementById("name").value;
+                var num=document.getElementById("num").value;
+                var mail=document.getElementById("mail").value;
+                var pass=document.getElementById("pass").value;
+                var date=document.getElementById("date").value;
+                console.log("Gender: "+gen)
+                console.log("Course: "+cor)
+                console.log("Name: "+name)
+                console.log("Number: "+num)
+                console.log("Email: "+mail)
+                console.log("Password: "+pass)
+                console.log("Date: "+date)
+            }
+        </script>
+    </body>
+</html>
