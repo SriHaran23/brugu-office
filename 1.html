@@ -34,15 +34,15 @@
                 <input type="checkbox" onclick="course(event)" value="Javascript">:Javascript
             </div>
             <label for="">Name:</label>
-            <input type="text" id="name"><br/>
+            <input type="text" maxlength="30" id="name"><br/>
             <label for="">Number:</label>
-            <input type="number" id="num"><br/>
+            <input type="number" min="-10" max="100" id="num"><br/>
             <label for="">Email:</label>
             <input type="email" id="mail"><br/>
             <label for="">Password:</label>
-            <input type="password" id="pass"><br/>
+            <input type="password" maxlength="12" id="pass"><br/>
             <label for="">Date:</label>
-            <input type="date" id="date"><br/>
+            <input type="date" min="2023-01-23" id="date"><br/>
         </form>
         <input type="submit" onclick="submit()">
         <script>
