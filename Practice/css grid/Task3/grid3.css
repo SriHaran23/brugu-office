@@ -1,0 +1,92 @@
+
+div{
+    border: 4px solid red;
+    border-radius: 7px;
+    padding: 11px;
+}
+
+.body{
+    border: 0;
+    display: grid;
+    grid-area: auto;
+    gap: 11px;
+    height: 90%;
+}
+
+.head{
+    grid-column: 1/13;
+}
+
+.nav{
+    grid-area: 2/4/3/11;
+}
+
+.main{
+    grid-area: 3/4/11/11;
+
+}
+
+.slide{
+    grid-area: 2/1/11/4;
+}
+
+.ads{
+    grid-area: 2/11/11/13;
+}
+ 
+.foot{
+    grid-column: 1/13;
+}
+
+@media (max-width:900px) {
+    .head{
+        grid-column: 1/13;
+    }
+    
+    .nav{
+        grid-column: 1/13;
+    }
+    
+    .main{
+        grid-area: 3/3/11/13;
+    
+    }
+    
+    .slide{
+        grid-area: 3/1/11/3;
+    }
+    
+    .ads{
+        grid-area: 11/1/12/3;
+    }
+    
+    .foot{
+        grid-area: 11/3/12/13;
+     }
+}
+
+@media (max-width:600px) {
+    .head{
+        grid-column: 1/13;
+    }
+    
+    .nav{
+        grid-column: 1/13;
+    }
+    
+    .main{
+        grid-area: 3/1/6/13;
+    }
+    
+    .slide{
+        grid-area: 6/1/7/13;
+    }
+    
+    .ads{
+        grid-row: 7/1/8/13;
+    }
+    
+    .foot{
+        grid-row: 8/1/9/13;
+    }
+}
