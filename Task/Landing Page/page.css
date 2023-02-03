@@ -12,7 +12,7 @@ span{
 }
 
 .name{
-    width: 20%;
+    width: 30%;
     padding-left: 50px;
 }
 .name h1{
@@ -34,7 +34,7 @@ span{
     overflow: hidden;
     display: flex;
     justify-content: end;
-    gap: 5px;
+    gap: 20px;
     width: 74%;
 }
 .nav li{
@@ -45,10 +45,10 @@ span{
 .nav li a{
     text-decoration: none;
     color: white;
-    padding: 0px;
+    padding: 15px;
 }
 .nav li a:hover{
-    background-color: aqua;
+    background-color: rgb(186, 222, 222);
     border-radius: 10px;
 }
 
@@ -60,6 +60,7 @@ span{
 }
 .logo h1{
     color: white;
+    margin: 0%;
 }
 .logo span{
     color: red;
@@ -116,7 +117,6 @@ span{
     left: 30%;
 }
 .flex div{
-    border: 1px solid;
     width: 60%;
     height: 300px;
     display: flex;
@@ -134,6 +134,7 @@ span{
 }
 .si{
     background-image: url(https://media.istockphoto.com/id/1364031269/photo/new-york-city-skyline-with-manhattan-financial-district-world-trade-center-and-orange-and.jpg?b=1&s=170667a&w=0&k=20&c=3PMLWAt7x4u9feZ_HJQxfUl-aZZhLx23UIjk2iE4fvc=);
+
 }
 
 .ap{
@@ -219,7 +220,7 @@ span{
 }
 
 .foot{
-    background-color: rgba(255, 0, 0, 0.638);
+    background-color: aqua;
     width: 100%;
     height: 125px;
     text-align: center;
@@ -233,4 +234,16 @@ span{
     width: 30px;
     height: 30px;
     border-radius: 100%;
+}
+
+@media (max-width: 900px) {
+    .nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        position: absolute;
+        right: 0;
+        gap: 10px;
+        width: 74%;
+    }
 }
