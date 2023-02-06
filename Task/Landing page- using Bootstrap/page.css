@@ -4,17 +4,25 @@
     position: absolute;
     top: 0;
 }
-
 .navbar a{
     color: black;
     text-decoration: none;
     font-size: xx-large;
     font-weight: 600;
 }
+/* .row{
+    border: 1px solid;
+}
+.col{
+    border: 1px solid;
+} */
 
-.main{
-    margin-top: 50px;
-    height: 1450px;
+.container{
+    margin-top: 70px;
+    border: 1px solid;
+    width: 900px;
+    height: 540px;
+    overflow-y: scroll;
 }
 .nav2{
     font-weight: 500;
@@ -22,117 +30,157 @@
 
 .about{
     position: relative;
-    height: 70rem;
+    border: 1px solid;
+    height: 75rem;
     margin-left: 58px;
     margin-right: 58px;
+}
+.abt1{
+    position: absolute;
 }
 .abt{
     position: absolute;
     margin: 0;
-    background-color: rgb(255, 195, 173);
+    background-color: rgb(28, 110, 9);
+    opacity: 50%;
     width: 69%;
-    height: 70rem;
+    height: 60rem;
     margin-top: 160px;
     right: 0;
 }
-.about h1{
+#row1{
+    position: relative;
+}
+#col1 h1{
     position: absolute;
-    font-size: 100px;
+    top: 60%;
+}
+.about h1{
+    font-size: 70px;
     font-weight: 700;
-    top: 300px;
-    left: 0;
-    margin-left: 2%;
+    top: 30%;
+}
+.s1{
+    
 }
 .img1{
     width: 350px; 
     height: 400px; 
     object-fit: cover;
-    object-position: 50% 50%;  
-    position: absolute;
-    top:4%;
-    right: 4%;
+    object-position: 50% 50%;
 }
 .img2{
-    position: absolute;
     width: 540px;
-    height: 350px; 
+    height: 320px; 
     object-fit: none;
-    top: 42%;
+    object-position: 22% 40%;  
 }
 .about h2{
-    position: absolute;
-    width: 450px;
+    width: 350px;
     font-size: 40px;
     font-weight: 700;
-    height: 417px; 
-    top: 56%;
-    right: 10%;
-}
-.abtp{
-    position: absolute;
-    width: 180px;
-    height: 330px; 
-    top: 90%;
-    left: 3%;
 }
 .img3{
-    position: absolute;
-    width: 350px;
+    width: 400px;
     height: 330px; 
-    top: 80%;
-    left: 25%;
 }
 .img4{
-    position: absolute;
     width: 330px;
     height: 330px; 
-    top: 80%;
-    left: 60%;
 }
 
 .section1{
-    position: relative;
-    height: 600px;
-    margin-top: 150px;
-    margin-left: 6%;
+    height: 750px;
 }
 .img5{
-    object-fit: none;
-    width: 250px;
-    height: 140px;
-    position: absolute;
-    top: 1%;
-    opacity: 45%;
+    position: relative;
 }
-.section1 h3{
+.img5-1{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/401/614/small/abstract-diagonal-straight-lines-pattern-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    opacity: 60%;
+    width: 300px;
+    height: 140px;
+}
+.sec2p{
+    width: 500px;
+}
+.img5 h3{
     position: absolute;
     font-weight: 700;
-    font-stretch: ultra-expanded;
-    top: 10%;
-    left: 2%;
+    top: 40%;
+    left: 10%;
 }
-.section1 p{
-    position: absolute;
-    width: 37%;
-    top: 30%;
-}
-.section1 button{
-    position: absolute;
-    top: 70%;
+#col2{
+    position: relative;
 }
 .img6{
-    object-fit: none;
-    width: 450px;
-    height: 280px;
     position: absolute;
-    top: 47%;
-    right: 10%;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 490px;
+    height: 289px;
 }
 .img7{
-    object-fit: none;
-    width: 350px;
-    height: 730px;
     position: absolute;
-    top: 10%;
-    right: 30%;
+    object-fit: cover;
+    width: 420px;
+    height: 520px;
+    left: 10%;
+    bottom: 12%;
+}
+
+.bgi{
+    position: relative;
+}
+.bgi-1{
+    background-color: rgb(28, 110, 9);
+    opacity: 50%;
+    width: 497px;
+    height: 420px;
+}
+.bgi img{
+    position: absolute;
+    bottom: 15%;
+}
+
+.s1{
+    position: relative;
+    height: 470px;
+}
+.bgi2{
+    background-color: rgb(28, 110, 9);
+    opacity: 50%;
+    width: 75%;
+    height: 470px;
+    position: absolute;
+    left: 0;
+}
+.card{
+    position: absolute;
+}
+.c1{
+    width: 90%;
+}
+
+.s4{
+    position: relative;
+}
+.img5-2{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/401/614/small/abstract-diagonal-straight-lines-pattern-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 60%;
+    width: 750px;
+    height: 600px;
+    position: absolute;
+}
+.bgi3{
+    background-color: rgb(28, 110, 9);
+    opacity: 50%;
+    position: absolute;
+    width: 75%;
+    height: 470px;
+    right: 0;
 }
