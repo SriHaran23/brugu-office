@@ -1,0 +1,68 @@
+#sec1{
+    background-color: #212062;
+  background-image: linear-gradient(to right, #212062 , #10153d);
+}
+#sec1 .img1{
+    width: 50px;
+    height: 50px;
+}
+#sec1 h1{
+    font-weight: 700;
+}
+
+#sec1 .nt li a{
+    color: rgb(195, 195, 195);
+}
+#sec1 .nt li a:hover{
+    color: white;
+}
+#sec1 .log a{
+    border: 2px solid #5846e0;
+}
+#sec1 .log a:hover{
+    border: 2px solid #5846e0;
+    background-color: #5846e0;
+}
+#sec1 .sign a{
+    border: 2px solid #5846e0;
+    background-color: #5846e0;
+}
+#sec1 .sign a:hover{
+    border: 2px solid #5846e0;
+    background-color: #ffffff00;
+}
+#sec1 .get a:hover{
+    color: #5846e0;
+}
+#sec1 h1{
+    font-size: 2rem;
+}
+#sec1 .coln{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#sec1 .coln div{
+    border: 2px solid #5846e047;
+    width: 120px;
+    height: 100px;
+    background-color: rgba(124, 157, 247, 0.052);
+}
+#sec1 .card{
+    position: absolute;
+    top: 18%;
+    right: 15%;
+}
+#sec1 .doll{
+    position: absolute;
+    bottom: 16%;
+    left: 7%;
+}
+#sec1 .box div{
+    border: 2px solid gray;
+    width: 150px;
+    height: 150px;
+}
+#sec1 .box div:hover{
+    border: 2px solid #5846e0;
+}
