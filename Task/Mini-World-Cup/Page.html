@@ -16,16 +16,24 @@
                 <nav class="navbar navbar-expand-lg pb-5">
                     <div class="container-fluid d-flex justify-content-between">
                         <div class="ni">
-                            <img src="asserts/img/sportfanspass-mini-worldcup.png" class="w-50 ps-2 mt-3 h-50" alt="">
+                            <img src="asserts/img/sportfanspass-mini-worldcup.png" class="w-50 ps-2" alt="">
                         </div>
-                        <button class="navbar-toggler navtog" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler navtog" type="button"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                             </svg>
                         </button>
-                        <div class="collapse navbar-collapse nav1 d-flex justify-content-between" id="navbarSupportedContent">
+                        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body justify-content-between">
                                 <div>
-                                    <ul class="navbar-nav nt">
+                                    <ul class="navbar-nav nt mb-2 mb-lg-0">
+                                        <li class="dis">
+                                            <img src="asserts/img/sportfanspass-mini-worldcup.png" class="w-50 ps-2" alt="">
+                                        </li>
                                         <li class="nav-item">
                                             <a class="fs-6 nav-link " aria-current="page" href="#">ABOUT GAME
                                             </a>
@@ -43,33 +51,54 @@
                                         <li class="nav-item">
                                             <a class="fs-6 nav-link" href="#">WHITEPAPER</a>
                                         </li>
-                                    </ul> 
+                                        <li></li>
+                                    </ul>
                                 </div>
                                 <div>
-                                    <ul class="navbar-nav nt text-light">
+                                    <ul class="navbar-nav nt1 me-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
-                                            <a href="" class="btn nav-link but px-3 fs-6">Presale Soon</a>
+                                            <a href="" class="btn nav-link but text-light px-3">Presale Soon</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="togg px-5">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                            <a class="btn btn-primary togg px-2" type="button"  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-spreadsheet-fill" viewBox="0 0 16 16">
+                                                    <path d="M12 0H4a2 2 0 0 0-2 2v4h12V2a2 2 0 0 0-2-2zm2 7h-4v2h4V7zm0 3h-4v2h4v-2zm0 3h-4v3h2a2 2 0 0 0 2-2v-1zm-5 3v-3H6v3h3zm-4 0v-3H2v1a2 2 0 0 0 2 2h1zm-3-4h3v-2H2v2zm0-3h3V7H2v2zm4 0V7h3v2H6zm0 1h3v2H6v-2z"/>
                                                 </svg>
                                             </a>
+                                            
                                         </li>
                                     </ul> 
                                 </div>
                             </div>
-                        
+                        </div>
                     </div>
                 </nav>
-                <div >
-                    <div class="row mt-5 ps-4 pt-5 text-dark text-decoration-none">
-                                <h1 class="hov w-100"><span>MINIWORLD CUP <br></span>P2E GAME</h1>
-                                <b class="hov w-100">Innovative Play2Earn application, aiming to enhance the experience of Football Gamers</b>
-                    </div>
-                  </div>
+                <div class="row mt-5 ps-4 pt-5 text-decoration-none">
+                    <h1 ><span>MINIWORLD CUP <br> </span>P2E GAME</h1>
+                    <b class="hov w-100"  data-ani="slideindown" data-ani-delay="0.2s">Innovative Play2Earn application, aiming to enhance the experience of Football Gamers</b>
+                </div>
             </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+                </svg>
+            </button>
         </section>
+        <script>
+            let mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+                if (document.body.scrollTop > 743 || document.documentElement.scrollTop > 743){
+                    mybutton.style.display = "block";
+                } 
+                else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>
