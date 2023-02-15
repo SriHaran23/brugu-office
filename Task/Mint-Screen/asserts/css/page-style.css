@@ -1,0 +1,117 @@
+body{
+    overflow-x: hidden;
+}
+.sec1{
+    width: auto;
+    padding: 0;
+}
+.img1{
+    background-image: url(../img/Screenshot-2022-10-06-142642-1.png);
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    position: relative;
+    width: 720px;
+    height: 730px;
+}
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.mob-view{
+    display: none;
+}
+.tx{
+    margin: 0;
+    padding: 0;
+}
+
+.row2{
+    height: 100px;
+}
+.vect div{
+    background-image: url(../img/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    width: 200px;
+    height: 200px;
+    
+}
+.txt{
+    left: 50px;
+}
+.srt{
+    width: 50%;
+    background-image: url(../img/Rectangle\ 22829.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.soc{
+    margin: 0;
+}
+.icon-bg{
+    background-image: url(../img/Ellipse-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card1{
+    width: 300px;
+    height: 400px;
+}
+.card1 p{
+    width: 95%;
+}
+.soc-dis{
+    /* background-image: url(../img/discord-bg.png); */
+    background-repeat: no-repeat;
+    background-size: ;
+}
+.store{
+    border: 1px solid white;
+    width: 300px;
+}
+.foot{
+    background-image: url(../img/footer.png);
+    height: 0px;
+}
+@media (max-width:770px) {
+    .web-view{
+        display: none;
+    }
+    .mob-view{
+        display: block;
+    }
+    .mob-logo{
+        margin: 0;
+        padding: 0;
+    }
+    .r0w1{
+        height: 150px;
+    }
+    .img1{
+        padding: 0;
+        background-image: url(../img/Screenshot-2022-10-06-142642.png);
+        width: 90%;
+        height: 450px;
+        background-repeat: no-repeat;
+    }
+    .btt{
+        display: none;
+    }
+    .vect div{
+        background-image: url(../img/Vector\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover cover;
+        width: 200px;
+        height: 200px;
+        
+    }
+    .srt{
+        width: 60%;
+        height: 10%;
+        background-image: url(../img/Rectangle\ 22829.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
