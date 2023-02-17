@@ -65,7 +65,7 @@ body{
 .soc-dis{
     /* background-image: url(../img/discord-bg.png); */
     background-repeat: no-repeat;
-    background-size: ;
+    background-size: cover;
 }
 .store{
     border: 1px solid white;
