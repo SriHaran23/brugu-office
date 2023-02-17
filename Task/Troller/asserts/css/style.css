@@ -1,0 +1,42 @@
+:root{
+    --mainfont-color:#FFC010;
+    --text-color: #ffffff;
+    --title-font: 'Play', sans-serif;
+    --body-font: 'Play', sans-serif; 
+    --icon-font: 'Font Awesome 5 Pro';
+    --theme-color2: #FFC010;
+    --button-color:#ff7e02;
+    --body-bg:#000000;
+}
+
+body{
+    background-color: var(--body-bg);
+    overflow-x: hidden;
+}
+.nav-li{
+    width: 70px;
+    font-size: 11px;
+    color: var(--text-color);
+}
+.bdg{
+    top: 40%;
+    left: 10%;
+}
+.sec1{
+    background-image: url(../img/bg/banner_last.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.txt-1{
+    padding-top: 19%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+}
+.bwc{
+    margin: 0;
+}
+.img1{
+    top: 20%;
+    left: 5%;
+}
