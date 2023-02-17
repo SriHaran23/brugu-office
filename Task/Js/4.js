@@ -1,5 +1,5 @@
-var x= +prompt();
-var y= +prompt();
+var x= 12;
+var y= 3;
 var p=1;
 for(i=0;i<y;i++){
     p= p*x;

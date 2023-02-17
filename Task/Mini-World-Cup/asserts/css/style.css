@@ -8,6 +8,9 @@
     --button-color:#ff7e02;
 
 }
+body{
+    height: 12000px;
+}
 #sec1 .main{
     background-image: url(../img/banner-img.png);
     background-size: cover;
