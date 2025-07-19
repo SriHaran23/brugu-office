@@ -1,0 +1,18 @@
+.not{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size:8px;
+}
+
+.con p{
+    padding: 5px;
+    margin: 0;
+}
+.eth{
+    width: 10px;
+    height: 17px;
+}

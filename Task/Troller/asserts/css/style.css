@@ -1,0 +1,95 @@
+:root{
+    --mainfont-color:#FFC010;
+    --text-color: #ffffff;
+    --title-font: 'Play', sans-serif;
+    --body-font: 'Play', sans-serif; 
+    --icon-font: 'Font Awesome 5 Pro';
+    --theme-color2: #FFC010;
+    --button-color:#ff7e02;
+    --body-bg:#000000;
+}
+
+body{
+    background-color: var(--body-bg);
+    overflow-x: hidden;
+}
+.nav-soc{
+    width: 30%;
+}
+.nav-li{
+    width: 100%;
+    font-size: 70%;
+    color: var(--text-color);
+}
+.bdg{
+    top: 40%;
+    left: 10%;
+}
+.sec1{
+    background-image: url(../img/bg/banner_last.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.txt-1{
+    padding-top: 19%;
+    /* padding-left: 8%; */
+    padding-bottom: 10%;
+}
+.bwc{
+    margin: 0;
+}
+.img1{
+    top: 19%;
+    left: 12%;
+}
+.sec2{
+    background-image: url(../img/bg/star-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.img2{
+    top: 5%;
+    left: 15%;
+}
+.sec3{
+    background-image: url(../img/bg/goals_bg.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.img3{
+    background-image: url(../img/bg/bg_rotate.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 2%;
+    left: 21%;
+}
+.sec4{
+    background-image: url(../img/bg/crackers.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.sec5{
+    background-image: url(../img/bg/bgreward.jpg);
+    background-size: cover;
+}
+.sec6{
+    background-image: url(../img/bg/bg\ stars.png);
+    background-size: 110%;
+    
+}
+.sec7{
+    background-image: url(../img/bg/bgmoon1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.sec8{
+    background-image: url(../img/bg/bg\ stars.png);
+    background-size: 150%;
+    
+}

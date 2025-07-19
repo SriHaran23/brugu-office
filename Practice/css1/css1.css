@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+.container-left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: column;
+    width: 10%;
+}
+.container-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
+    width: 88%;
+    margin: 2px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}
+.container-right div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+div{
+    border: 1px blue solid;
+    margin: 5px;
+}

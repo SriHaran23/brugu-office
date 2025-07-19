@@ -1,0 +1,165 @@
+#sec1{
+    background-color: #212062;
+    background-image: linear-gradient(to right, #212062 , #10153d);
+    overflow-x: hidden;
+}
+#sec1 .img1{
+    width: 40px;
+    height: 45px;
+}
+@media (min-width:991px) {
+    #sec1 .nav1{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:991px) {
+    #sec1 .vr{
+        display: none;
+    }
+}
+@media (max-width:450px) {
+    #sec1 .coln{
+        height: 90%;
+    }
+    #sec1 .graph1{
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    #sec1 .card1{
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    #sec1 .doll1{
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    #sec1 .graph{
+        position: absolute;
+        top: 0;
+        left: 15%;
+        animation-duration: 0.5s;
+        animation-delay: 1s;
+        animation: fadeIn1 2s;
+    }
+    #sec1 .card{
+        position: absolute;
+        top: 18%;
+        right: 15%;
+        animation-duration: 0.5s;
+        animation-delay: 1s;
+        animation: fadeIn2 2s;
+    }
+    #sec1 .doll{
+        position: absolute;
+        bottom: 16%;
+        left: 7%;
+        animation-duration: 0.5s;
+        animation-delay: 1s;
+        animation: fadeIn3 2s;
+    }
+}
+#sec1 .togsss{
+    color: white;  
+}
+#sec1 h1{
+    font-weight: 700;
+}
+#sec1 p{
+    padding: 0;
+}
+#sec1 .nt li a{
+    color: rgb(195, 195, 195);
+}
+#sec1 .nt li a:hover{
+    color: white;
+}
+#sec1 .log a{
+    border: 2px solid #5846e0;
+}
+#sec1 .log a:hover{
+    border: 2px solid #5846e0;
+    background-color: #5846e0;
+}
+#sec1 .sign a{
+    border: 2px solid #5846e0;
+    background-color: #5846e0;
+}
+#sec1 .sign a:hover{
+    border: 2px solid #5846e0;
+    background-color: #ffffff00;
+}
+#sec1 .get a:hover{
+    color: #5846e0;
+}
+#sec1 h1{
+    font-size: 2rem;
+}
+#sec1 .coln{
+    position: relative;
+}
+#sec1 .coln div{
+    border: 2px solid #5846e047;
+    width: 18%;
+    height: 100px;
+    background-color: rgba(124, 157, 247, 0.052);
+}
+#sec1 .graph{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation: fadeIn1 2s;
+}
+#sec1 .card{
+    position: absolute;
+    top: 18%;
+    right: 15%;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation: fadeIn2 2s;
+}
+#sec1 .doll{
+    position: absolute;
+    bottom: 16%;
+    left: 7%;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation: fadeIn3 2s;
+}
+#sec1 .hov{
+    position: relative;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+    animation: hov1 2s;
+}
+@keyframes hov1 {
+    0%   { opacity: 0;left: 0%; top:30%;}
+    100% { opacity: 1;left: 0%; top:0px;}
+  }
+@keyframes fadeIn1 {
+    0%   { opacity: 0;left: 15%; top:30%;}
+    100% { opacity: 1;left: 15%; top:0px;}
+  }
+  @keyframes fadeIn2{
+    0%   { opacity: 0;right: 15%;top:40%;}
+    25%   { opacity: 0;right: 15%;top:32%;}
+    50%   { opacity: 0.5;right: 15%;top:26%;}
+    100% { opacity: 1;right: 15%; top:18%;}
+  }
+  @keyframes fadeIn3 {
+    0%   { opacity: 0;left: 7%; bottom: 0%;}
+    100% { opacity: 1;left: 7%; bottom: 16%;}
+  }
+#sec1 .box div{
+    border: 2px solid gray;
+    width: 150px;
+    height: 150px;
+}
+#sec1 .box div:hover{
+    border: 2px solid #5846e0;
+}

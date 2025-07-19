@@ -1,0 +1,28 @@
+.not{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    bottom: 0%;
+    left: 65%;
+    font-size:10px;
+}
+
+aside{
+    width: 15%;
+    height: 560px;
+}
+aside li a{
+    text-decoration: none;
+    color: #909090;
+}
+.li li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.div{
+    width: 900px;
+    height: 560px;
+}
